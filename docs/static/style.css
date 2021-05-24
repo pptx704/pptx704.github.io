@@ -1,0 +1,126 @@
+body {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.main{
+	min-height: 100vh;
+	position: relative;
+}
+
+.main h1{
+	font-size: 36pt;
+	font-weight: 400;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.main h2{
+	font-size: 28pt;
+	font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.intro-text {
+    margin-bottom: 2rem;
+}
+
+#myimage {
+    max-width: 300px;
+}
+
+.education ul, .projects ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.education .degree {
+    font-size: 20pt;
+    font-weight: 300;
+}
+
+.education .batch {
+    font-size: 12pt;
+    color: rgb(197, 197, 197);
+}
+
+.education .institution {
+    font-size: 16pt;
+}
+
+.education .location {
+    font-size: 13pt;
+}
+
+.location-svg, .tag-svg {
+    fill: white;
+}
+
+.project {
+    font-size: 20pt;
+    font-weight: 300;
+}
+
+.project-details {
+    font-size: 13pt;
+    text-align: justify;
+}
+
+.project-url, .project-url:hover {
+    font-size: 14pt;
+    color: rgb(216, 216, 216);
+}
+
+.project-tags {
+    font-size: 10pt;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+a, a:hover {
+    color: white;
+}
+
+.contact-svg {
+    fill: white;
+}
+
+.contact-url {
+    text-decoration: none;
+}
+
+.btn-contact {
+    background-color: black;
+    border: 1px solid white;
+    margin-bottom: 1em !important;
+}
+
+.btn-contact:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (orientation: portrait){
+    h2 {
+        text-align: center;
+    }
+    contact-btn {
+        align-self: center;
+    }
+}
+@media (orientation: landscape){
+    h2 {
+        text-align: left;
+    }
+}
